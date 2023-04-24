@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro Cliente</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body class="cadastro">
+    <h1 class="texto">Cadastro Cliente</h1>
+    <h2 class="textocadastro">Insira abaixo as informações para cadastro</h2>
+    <form action="/cadastro.html" method="post" class="texto">
+        <label for="fname">Data de Nascimento</label><br>
+        <input type="date" id="date" name="data"><br><br>
+        <label for="lname">Email</label><br>
+        <input type="text" id="name" name="email"><br><br>
+        <label for="lname">Telefone</label><br>
+        <input type="text" id="name" name="telefone"><br><br>
+        <label for="lname">Mês de Adesão</label><br>
+        <select name="Mês de Adesão">
+            <option value="Janeiro">Janeiro</option>
+            <option value="Fevereiro">Fevereiro</option>
+            <option value="Março">Março</option>
+            <option value="Abril">Abril</option>
+            <option value="Maio">Maio</option>
+            <option value="Junho">Junho</option>
+            <option value="Julho">Julho</option>
+            <option value="Agosto">Agosto</option>
+            <option value="Setembro">Setembro</option>
+            <option value="Outubro">Outubro</option>
+            <option value="Novembro">Novembro</option>
+            <option value="Dezembro">Dezembro</option>
+        </select><br><br>
+        <label for="lname">Quantos filmes você deseja ver na semana?</label><br>
+        <select name="Mês de Adesão">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+        </select><br><br>
+        <label for="lname">Qual cor você prefere de plano de fundo da página?</label><br>
+        <select name="Mês de Adesão">
+            <option value="Branco">Branco</option>
+            <option value="Preto">Preto</option>
+            <option value="Azul">Azul</option>
+            <option value="Amarelo">Amarelo</option>
+            <option value="Verde">Verde</option>
+            <option value="Vermelho">Vermelho</option>
+            <option value="Cinza">Cinza</option>
+        </select><br><br>
+        <label for="lname">Digite um nome para sua página pessoal</label><br>
+        <input type="text" id="name" name="email"><br><br>
+        <label for="hora-cons">Escolha uma data e horário para usar seu cupom de desconto</label><br>
+        <input type="date" id="date" name="data">
+        <input id="hora-cons" type="time" name="hora-cons" value="00:00"><br><br>
+        <label for="points">Qual seu grau de preferência por cada gênero?</label>
+        <li>Ação</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <li>Drama</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <li>Romance</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <li>Comédia</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <li>Suspense</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <li>Terror</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br>
+        <li>Ficção Científica</li>
+        <input type="range" id="points" name="points" min="0" max="10"><br><br>
+        <input type="submit" value="Finalizar Cadastro">
+      </form>
+</body>
+</html>
